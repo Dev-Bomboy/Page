@@ -1,0 +1,118 @@
+ *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            background-color: whitesmoke;
+            background-image: url(./iRfUPyQ4jf9ohyr2Kk7zLWwZPxZg3wgcBcb1fufdezTPiqBTsOtr7HHWJAR_8w8aMTCjG7iT51tJF6dz64I5ceScVDebDYeorae0TpdWn9MU1RL5r8HEHo8mHZgN7DBE8eXYLX1UvBdDaqwIrI-FbgIP-tt3Yer34lT7-NfKP64NdOrzWnlT01vkcR5iI4RQ.jfif);
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        /* Parent Container */
+        .container{
+            width: 1024px;
+            margin: 30px auto;
+            text-align: center;
+        }
+
+        /* Header */
+        header{
+            /*height: 100px;*/
+            /*background-color: aqua;*/
+            padding: 20px;
+            text-align: center;
+            
+        }
+
+        header img {
+            height: 70px;
+        
+        }
+
+        /* Navigation */
+        nav{
+            height: 40px;
+            background-color: gray;
+            color: white;
+            
+        }
+
+        
+        main{
+           /* height: 200px;*/
+            background-color: rgba(0, 0, 0, 0.451);
+            padding-top:100;
+            padding-bottom: 100;
+            
+
+            
+        }
+        h1 {
+            padding-top: 50px;
+            color: white;
+            margin-bottom: 60px;
+            text-shadow: 2px 2px lightgray;
+        }
+
+        p {
+            margin-left: 200px;
+            margin-right: 200px;
+            padding-bottom: 20px;
+            padding-top: 20px;
+            color: white;
+            margin-bottom: 60px;
+        }
+
+        
+        footer{
+            height: 80px;
+            background-color: black;
+            color: white;
+            padding-top: 30px;
+            text-align: left;
+            text-transform: uppercase;
+        }
+            
+            footer p {
+             background-color: black;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-family: Arial, sans-serif;
+            }
+        
+        nav{
+    background-color: gray;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: yellow;
+}
+nav {
+    /* height: 80px; */
+    background-color: grey;
+    position: relative;
+}
+main a {
+    background-color: white;
+    text-decoration: underline;
+    font-size: 20px;
+    transform: 0.3s;
+}
